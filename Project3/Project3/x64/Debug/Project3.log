@@ -1,0 +1,38 @@
+﻿  MazeCell.cpp
+c:\users\tervepaterve\documents\visual studio 2015\projects\project3\project3\mazecell.cpp(5): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\tervepaterve\documents\visual studio 2015\projects\project3\project3\mazecell.cpp(8): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\tervepaterve\documents\visual studio 2015\projects\project3\project3\mazecell.cpp(13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\tervepaterve\documents\visual studio 2015\projects\project3\project3\mazecell.cpp(17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\tervepaterve\documents\visual studio 2015\projects\project3\project3\mazecell.cpp(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\tervepaterve\documents\visual studio 2015\projects\project3\project3\mazecell.cpp(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Maze.cpp
+c:\users\tervepaterve\documents\visual studio 2015\projects\project3\project3\maze.cpp(5): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\tervepaterve\documents\visual studio 2015\projects\project3\project3\maze.cpp(6): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\tervepaterve\documents\visual studio 2015\projects\project3\project3\maze.cpp(28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\tervepaterve\documents\visual studio 2015\projects\project3\project3\maze.cpp(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\tervepaterve\documents\visual studio 2015\projects\project3\project3\maze.cpp(113): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::String::String(char const *,class std::locale const &)" (??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (??0VideoMode@sf@@QEAA@III@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::Window::close(void)" (?close@Window@sf@@QEAAXXZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: bool __cdecl sf::Window::isOpen(void)const " (?isOpen@Window@sf@@QEBA_NXZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: bool __cdecl sf::Window::pollEvent(class sf::Event &)" (?pollEvent@Window@sf@@QEAA_NAEAVEvent@2@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::Window::display(void)" (?display@Window@sf@@QEAAXXZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (??0Color@sf@@QEAA@EEEE@Z) referenced in function main
+MazeCell.obj : error LNK2001: unresolved external symbol "public: __cdecl sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (??0Color@sf@@QEAA@EEEE@Z)
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::RenderTarget::clear(class sf::Color const &)" (?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (??0RenderWindow@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (??1RenderWindow@sf@@UEAA@XZ) referenced in function main
+MazeCell.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::Transformable::setPosition(float,float)" (?setPosition@Transformable@sf@@QEAAXMM@Z) referenced in function "public: __cdecl MazeCell::MazeCell(int,int,int,class sf::RenderWindow *)" (??0MazeCell@@QEAA@HHHPEAVRenderWindow@sf@@@Z)
+MazeCell.obj : error LNK2019: unresolved external symbol "bool __cdecl sf::operator!=(class sf::Color const &,class sf::Color const &)" (??9sf@@YA_NAEBVColor@0@0@Z) referenced in function "public: void __cdecl MazeCell::SetColor(class sf::Color)" (?SetColor@MazeCell@@QEAAXVColor@sf@@@Z)
+MazeCell.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl sf::Shape::~Shape(void)" (??1Shape@sf@@UEAA@XZ) referenced in function "public: virtual __cdecl sf::RectangleShape::~RectangleShape(void)" (??1RectangleShape@sf@@UEAA@XZ)
+MazeCell.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::Shape::setFillColor(class sf::Color const &)" (?setFillColor@Shape@sf@@QEAAXAEBVColor@2@@Z) referenced in function "public: __cdecl MazeCell::MazeCell(int,int,int,class sf::RenderWindow *)" (??0MazeCell@@QEAA@HHHPEAVRenderWindow@sf@@@Z)
+MazeCell.obj : error LNK2019: unresolved external symbol "public: class sf::Color const & __cdecl sf::Shape::getFillColor(void)const " (?getFillColor@Shape@sf@@QEBAAEBVColor@2@XZ) referenced in function "public: void __cdecl MazeCell::SetColor(class sf::Color)" (?SetColor@MazeCell@@QEAAXVColor@sf@@@Z)
+MazeCell.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::RectangleShape::RectangleShape(class sf::Vector2<float> const &)" (??0RectangleShape@sf@@QEAA@AEBV?$Vector2@M@1@@Z) referenced in function "public: __cdecl MazeCell::MazeCell(int,int,int,class sf::RenderWindow *)" (??0MazeCell@@QEAA@HHHPEAVRenderWindow@sf@@@Z)
+MazeCell.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z) referenced in function "public: void __cdecl MazeCell::Draw(void)" (?Draw@MazeCell@@QEAAXXZ)
+MazeCell.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+C:\Users\tervepaterve\Desktop\SFML-2.4.2\lib\sfml-graphics.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\tervepaterve\Desktop\SFML-2.4.2\lib\sfml-window.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\tervepaterve\Desktop\SFML-2.4.2\lib\sfml-system.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\tervepaterve\Documents\Visual Studio 2015\Projects\Project3\x64\Debug\Project3.exe : fatal error LNK1120: 18 unresolved externals
